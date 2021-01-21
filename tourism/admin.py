@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from tourism.models import MSP, Tourists_objects, Article
+from tourism.models import Enterpreneurs, Toursites, Articles
 
-admin.site.register(MSP)
-admin.site.register(Tourists_objects)
-admin.site.register(Article)
+admin.site.register(Enterpreneurs)
+admin.site.register(Toursites)
+admin.site.register(Articles)
