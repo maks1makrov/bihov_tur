@@ -1,0 +1,1 @@
+web: gunicorn bihov_first.wsgi
