@@ -90,7 +90,7 @@ DATABASES = {
         'USER': environ.get('USER'),
         'PASSWORD': environ.get('PASSWORD'),
         'PORT': 5432,
-        'HOST': '5432'
+        'HOST': environ.get('HOST')
     }
 }
 
